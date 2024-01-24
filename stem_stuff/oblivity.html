@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://iosevka-webfonts.github.io/iosevka/iosevka.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>kro.do</h1>
+        <br> 
+        <a href="index.html">home</a>  
+        <a href="stem_stuff.html">stem_stuff</a>  
+        <a href="game_stuff.html">game_stuff</a>  
+        <a href="language_stuff.html">language_stuff</a>  
+        <a href="other_stuff.html">other_stuff</a>
+    
+        <br>
+    </header>
+
+    <h2>Date: 2024-01-23</h2>
+
+    <p>This is the first devlog of a game I decided to work on. I am mostly inspired by The Elder Scrolls IV: Oblivon, and Divinity: Original Sin 2.
+    Now this isn't one of those newbie projects where I think me, a single person, is going to create a AAA 3D open-world RPG, but a lot of inspiration is going to be pulled from these games.</p>
+</p>
+    <p>
+
+        From Oblivion, I really would like to mimic:
+        <ul>
+            <item>
+                The clunky first person combat. I love it so much.
+            </item>
+        </ul>
+
+        From Divinity, I really would like to mimic:
+
+        <ul>
+            <item>The style of open-world it is. What I would make it not as expansive and instricit as Dinvity's world, but I really enjoy the
+                idea of instead of having a singular giant world, the game is split into chapters, each with a smaller open-world setting. You
+                can still explore freely but you're limited to a certain set of quests at the time. I think as a solo dev, that would be fesible.
+                At my sacle, this would mean me maybe making singular towns as playable areas and you're limited to that town until you progress.
+            </item>
+        </ul>
+
+
+        <h3>My Scope</h3>
+
+        <p>
+            I want to make a semi-open-world RPG, so how big? Well, small enough so that a single dev can do it in a reasonable amount of time, of course.
+            An achievable scope would be a handful of towns and immediate surrondings, say 5-10 towns, and 10-20 quests from each area on the higher end.
+            
+        </p>
+
+        <p>I feel like that could be doable.</p>
+
+        <h3>Workflow</h3>
+        <p>
+        I am using Godot for my game engine. This 100% would not be feasible if I had to ship my own engine. I plan to use Rust through GDExt
+        to implement some of the bigger systems. This is not because I am worried about performance. The main idea is I really don't get GDScript
+        enough to do do an actual inheritance system. (For example, Actor as a base class and Player and NPC as children of an Actor), and I know
+        how to do it in the Godot Apis. That's it. Why Rust over C++? The simple reason is cargo is such a nice build system to work with and I don't want
+        to spend awhile getting a C++ build system working.</p>
+
+        <p>
+            For assets I plan to use Blender. I am not the greatest 3D modeller but I find it fun. For textures I will use GIMP, but I have
+            a pretty bad habit of trying to generate texture through shaders instead of making them myself, but we'll see.
+        </p>
+
+        <h3>Conclusion</h3>
+
+        <p>
+            If I begin to make progress, I'll post it here. 
+        </p>
+</body>
